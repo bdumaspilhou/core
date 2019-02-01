@@ -13,11 +13,11 @@ namespace Flarum\Tests\unit\Api\ExceptionHandler;
 
 use Exception;
 use Flarum\Api\ExceptionHandler\IlluminateValidationExceptionHandler;
-use PHPUnit\Framework\TestCase;
 use Illuminate\Translation\ArrayLoader;
 use Illuminate\Translation\Translator;
 use Illuminate\Validation\Factory;
 use Illuminate\Validation\ValidationException;
+use PHPUnit\Framework\TestCase;
 
 class IlluminateValidationExceptionHandlerTest extends TestCase
 {

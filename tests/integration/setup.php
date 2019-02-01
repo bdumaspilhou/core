@@ -34,7 +34,6 @@ sleep(5);
 
 echo "\nOff we go...\n";
 
-
 /*
  * Setup installation configuration
  */
@@ -65,7 +64,6 @@ $pipeline = $installation
     ))
     ->settings(['mail_driver' => 'log'])
     ->build();
-
 
 /*
  * Run the actual configuration

@@ -13,8 +13,8 @@ namespace Flarum\Tests\unit\Api\ExceptionHandler;
 
 use Exception;
 use Flarum\Api\ExceptionHandler\InvalidConfirmationTokenExceptionHandler;
-use PHPUnit\Framework\TestCase;
 use Flarum\User\Exception\InvalidConfirmationTokenException;
+use PHPUnit\Framework\TestCase;
 
 class InvalidConfirmationTokenExceptionHandlerTest extends TestCase
 {

@@ -13,8 +13,8 @@ namespace Flarum\Tests\unit\Api\ExceptionHandler;
 
 use Exception;
 use Flarum\Api\ExceptionHandler\ModelNotFoundExceptionHandler;
-use PHPUnit\Framework\TestCase;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
+use PHPUnit\Framework\TestCase;
 
 class ModelNotFoundExceptionHandlerTest extends TestCase
 {
